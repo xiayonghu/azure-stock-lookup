@@ -1,0 +1,18 @@
+{
+    "description":{
+        "language":"python",
+        "defaultRuntimeVersion":"3.12",
+        "supportedOperatingSystems":["WINDOWS"],
+        "supportedRuntimeVersions":["3.12"],
+        "supportedArchitectures":["X64", "Arm64"],
+        "extensions":[".py"],
+        "defaultExecutablePath":"python",
+        "defaultWorkerPath":"C:/Program Files/Microsoft/Azure Functions Core Tools/workers/python/3.12/WINDOWS/X64/worker.py",
+        "workerIndexing": "true",
+        "arguments": ["-X no_debug_ranges"]
+    },
+    "processOptions": {
+        "initializationTimeout": "00:02:00",
+        "environmentReloadTimeout": "00:02:00"
+    }
+}
